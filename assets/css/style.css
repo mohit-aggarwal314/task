@@ -150,12 +150,15 @@ body {
   padding: 10px 40px;
   border: 1px solid;
   border-radius: 6px;
+    
 }
 
 .btn-primary {
   background: var(--bittersweet);
   border-color: var(--bittersweet);
   color: var(--white);
+  background: #68AA09;
+    border-color: #68AA09;
 }
 
 .btn-primary:is(:hover, :focus) { --bittersweet: hsl(2, 90%, 65%); }
@@ -441,7 +444,7 @@ header .container {
  * #CONTACT
 \*-----------------------------------*/
 
-.contact { margin-bottom: 120px; }
+.contact { margin-bottom: 120px; margin-top: 4%; }
 
 .contact-content { margin-bottom: 50px; }
 
